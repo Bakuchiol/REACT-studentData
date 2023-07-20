@@ -3,7 +3,8 @@ const students = [
         id: 1,
         key: 'A',
         name: 'Cait Yomorta',
-        bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus placeat nostrum explicabo? Voluptatibus expedita saepe officia optio, commodi totam ratione laudantium ipsum porro molestias, quasi nulla minus vitae laboriosam corrupti Delectus inventore explicabo est odit incidunt rem a recusandae eum pariatur. Aperiam doloremque blanditiis harum voluptate animi fugit beatae asperiores quo, dignissimos sed illum veniam eum accusantium nulla quod voluptatum',
+        img: 'https://www.pngkey.com/png/full/590-5904853_glen-circle-profile-fundraising.png',
+        bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus placeat nostrum explicabo? Voluptatibus expedita saepe officia optio, commodi totam ratione laudantium ipsum porro molestias, quasi nulla minus vitae laboriosam corrupti.',
         scores: [
             {
                 date: '2018-02-08',
@@ -23,6 +24,7 @@ const students = [
         id: 2,
         key: 'B',
         name: 'Holly Baird',
+        img: 'https://www.nicepng.com/png/full/182-1829287_cammy-lin-ux-designer-circle-picture-profile-girl.png',
         bio: 'Eum molestiae explicabo deserunt, maiores quod eaque omnis tenetur vero ducimus, magnam autem! Quia facere quaerat eum repudiandae dolorum eligendi iure quae. Eos id possimus accusantium, earum animi modi hic.',
         scores: [
             {
@@ -47,6 +49,7 @@ const students = [
         id: 3,
         key: 'C',
         name: 'Wes Mungia',
+        img: 'https://themusclemedics.com/wp-content/uploads/2018/04/Circle-Profile-PNG.png',
         bio: 'Repudiandae veritatis recusandae quidem tenetur impedit, numquam incidunt enim, adipisci id cupiditate asperiores nam perferendis. Facere odit laborum ipsum autem repellendus natus eius doloremque ullam perferendis. Enim repellendus ut veniam?',
         scores: [
             {

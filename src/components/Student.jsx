@@ -3,10 +3,13 @@ import Score from './Score'
 
 function Student(props) {
   return (
-    <div>
-      <h1>Student :</h1>
-      <p>{props.name}</p>
-      <p>{props.bio}</p>
+    <div id='studentBox'>
+      {/* <h1>Student :</h1> */}
+      <div className='imgWrap'>
+      <img src={props.img} alt="profile" className='profileImg'/>
+      </div>
+      <p className='name'>{props.name}</p>
+      <p className='bio'>{props.bio}</p>
       <Score />
       {/* <p>{props.scores}</p> */}
         {/* <ul>

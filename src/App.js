@@ -15,14 +15,16 @@ function App() {
 
   return (
     <div className="App">
-
+      {/* map the array of student data */}
       {studentData.map((pupil) => {
         console.log(pupil);
 
         return (
-          <>
+          <div id='wrapper'>
+          {/* component 1 */}
           <Student 
             key={pupil.id}
+            img={pupil.img}
             name={pupil.name}
             bio={pupil.bio}
             // scores={pupil.scores}
@@ -35,22 +37,26 @@ function App() {
             //   )
             // })}
       />
-
+      {/* component 2 */}
+      <div className='scoreWrapper'>
       <Score
       key={pupil.key}
       scores={pupil.scores.map((pupil) => {
         return (
-          <>
-          <li>{pupil.date}</li>
-          <li>{pupil.score}</li>
-          </>
+          <ul className='scoreBox'>
+            <li className='grade'>GRADE: </li>
+            <li>{pupil.date}</li>
+            <li className='pupilScore'>{pupil.score}</li>
+          </ul>
         )
       })}
       />
-      </>
+      </div>
+      </div>
 
         )
       })}
+      
 
       
     </div>

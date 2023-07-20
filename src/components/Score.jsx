@@ -1,8 +1,9 @@
 import React from 'react'
 
 function Score(props) {
+
   return(
-  <p>{props.scores}</p>
+    <div className='scores'>{props.scores}</div>
   )
 }
 
