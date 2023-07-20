@@ -23,12 +23,15 @@ function App() {
             key={pupil.id}
             name={pupil.name}
             bio={pupil.bio}
-            scores={pupil.scores}
-            // scores={pupil.scores.map((pupil) => {
-            //   return (
-            //     <li>{pupil}</li>
-            //   )
-            // })}
+            // scores={pupil.scores}
+            scores={pupil.scores.map((pupil) => {
+              return (
+                <>
+                <li key={pupil.id}>{pupil.date}</li>
+                <li key={pupil.id}>{pupil.score}</li>
+                </>
+              )
+            })}
 
       />
         )
