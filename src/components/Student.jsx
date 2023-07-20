@@ -1,4 +1,5 @@
 import React from 'react'
+import Score from './Score'
 
 function Student(props) {
   return (
@@ -6,7 +7,8 @@ function Student(props) {
       <h1>Student :</h1>
       <p>{props.name}</p>
       <p>{props.bio}</p>
-      <p>{props.scores}</p>
+      <Score />
+      {/* <p>{props.scores}</p> */}
         {/* <ul>
             {props.scores.map((data)=>{
                 return (
